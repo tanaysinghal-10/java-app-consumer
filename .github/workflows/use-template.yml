@@ -1,0 +1,10 @@
+name: Use Java Template
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-template:
+    uses: tanaysinghal-10/java-build-template/.github/workflows/build.yml@main
